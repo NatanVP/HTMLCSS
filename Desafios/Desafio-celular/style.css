@@ -6,7 +6,7 @@
 }
 html, body{
     height: 100vh;
-    width: 100vw;
+    
     background-color: black;
     background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
     background-position: top center;
@@ -43,25 +43,28 @@ iframe{
 ul{
     
     height: 100vh;
-    width: 30vw;
+    width: 10vw;
     position: absolute;
     left: 90%;
     background-color: rgba(39, 39, 39, 0.24);
     
 }
 li{
-    
-  
+    padding-left: 3vw;
+    padding-right: 3vw;    
     padding-top: 3vw;
     list-style-type: none;
     border-radius: 50%
     
 }
 img{
-    
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.329);
     border-radius: 50%;
     height: 8vh;
+    box-sizing: border-box;
 }
 img:hover{
-    box-shadow: 1px 3px rgba(0, 0, 0, 0.329);
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3px, -3px);
+    
 }
